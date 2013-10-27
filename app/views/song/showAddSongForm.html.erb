@@ -1,0 +1,6 @@
+<%= form_for @tune , :url => add_path do |f| %>
+    <%= f.text_field :name %>
+    <%= f.text_area :url  , :size => "60x12" %>
+    <%= f.text_area :author %>
+    <%= f.submit "Create" %>
+<% end %>
