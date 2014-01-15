@@ -3,6 +3,7 @@ Pianizm50::Application.routes.draw do
 
   match "song/showAddSongForm" => "song#showAddSongForm"
   match "add" =>  "song#add"
+  match "testV" =>  "testV#testV"
 
   get "song/view"
 
