@@ -21,7 +21,9 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: pianizm50
   pool: 5
+  database: d11449f79mc4st
   username: lqwxjkzbqczsjm
   password: Qwz2xG1PGXsXXx1FBdLOcbjODT
+  host: ec2-54-225-124-205.compute-1.amazonaws.com
+  port: 5432
